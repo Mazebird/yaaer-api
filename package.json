@@ -1,0 +1,28 @@
+{
+  "name": "yet-another-aeons-end-randomizer",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "Aeon",
+    "End",
+    "rand",
+    "randomizer"
+  ],
+  "author": "Anthony Fernandez <arckreed@gmail.com>",
+  "license": "",
+  "description": "Yet Another Aeon's End Randomizer (or YAAER) is a randomizer for the games Aeon's End. Rand turn order, supply, mages or nemeses.",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
